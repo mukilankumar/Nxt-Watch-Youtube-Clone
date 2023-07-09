@@ -76,6 +76,7 @@ export const NavigationSmallContainer = styled.nav`
   height: 60px;
   justify-content: space-between;
   padding: 10px;
+  object-fit: contain;
   background-color: ${props => props.bgColor};
   position: fixed;
   bottom: 0;

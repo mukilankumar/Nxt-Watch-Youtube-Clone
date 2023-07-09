@@ -19,9 +19,11 @@ export const NavbarHeader = styled.nav`
 export const HeaderLogo = styled.img`
   width: 80px;
   height: 30px;
+  object-fit: contain;
   @media screen and (min-width: 768px) {
     width: 100px;
     height: 40px;
+    object-fit: contain;
   }
 `
 
@@ -34,6 +36,7 @@ export const ThemeButton = styled.button`
   background: none;
   border: none;
   margin-right: 10px;
+  cursor: pointer;
 `
 export const LogoutButton = styled.button`
   border: 1px solid;
@@ -47,6 +50,7 @@ export const LogoutButton = styled.button`
   color: ${props => props.color};
   border-color: ${props => props.color};
   margin-left: 6px;
+  cursor: pointer;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -62,6 +66,7 @@ export const ProfileImage = styled.img`
   width: 30px;
   height: 30px;
   margin-right: 10px;
+  cursor: pointer;
 `
 export const ModalContainer = styled.div`
   display: flex;

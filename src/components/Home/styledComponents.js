@@ -31,6 +31,7 @@ export const BannerRightPart = styled.div`
 export const BannerImage = styled.img`
   width: 80px;
   height: 30px;
+  object-fit: contain;
 `
 export const BannerButton = styled.button`
   padding-left: 10px;
